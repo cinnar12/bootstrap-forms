@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-8">
+        <h1> STAR QUIZ </h1>
+        <p> When you look up at the night sky, what do you see? Depending on where you are, it could be the twinkling of many beautiful stars visible to the eye or a commercial airline flying to its next destination. This quiz is about the former. How much do you know about the stars out there? Are you an astro-junkie who's obsessed with the world beyond or did you recently find out that our sun is a star? Either way, let's find out below. All the information can be found <a href="https://en.wikipedia.org/wiki/Star">here</a>.</p>
+        <form>
+          <!--QUESTION1-->
+          <div class="form-group">
+            <label> Q1: Which sequence does a star spend most of their existence? </label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="sequence" value="formation"> Formation
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="sequence" value="main"> Main
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="sequence" value="post-main"> Post-main
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="sequence" value="death"> Death
+              </label>
+            </div>
+
+          </div>
+          <!--QUESTION2-->
+          <div class="form-group">
+            <label> Q2: Stars produce energy as a product of nuclear fusion. This energy then radiates through space as: </label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="radiation" value="micro"> Micro radiation.
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="radiation" value="macro"> Macro radiation.
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="radiation" value="electromagnetic"> Electromagnetic radiation.
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="radiation" value="particle"> Particle radiation.
+              </label>
+            </div>
+
+          </div>
+
+          <!--QUESTION3-->
+          <div class="form-group">
+            <label class="form-control-label">Q3: Stars are grouped by their mass. The Sun is in which mass category?</label>
+            <div class="form-group">
+              <select class="form-control" name="mass" id="mass" size="3">
+                <option value="vlow">Very low mass stars</option>
+                <option value="low">Low mass stars</option>
+                <option value="reg">Regular mass stars</option>
+                <option value="med">Intermediate-mass stars</option>
+                <option value="big">Big mass stars</option>
+                <option value="massive">Massive stars</option>
+              </select>
+            </div>
+          </div>
+
+          <!--QUESTION4-->
+          <div class="form-group">
+            <label class="form-control-label">Q4: A star begins to form with the gravitational collaspe of what?</label>
+            <div class="form-group">
+              <input class="form-control" type="text" name="beginnings" id="beginnings">
+            </div>
+          </div>
+
+          <!--QUESTION5-->
+          <div class="form-group">
+            <label class="form-control-label">Q5: The total ________ of a star can help predict a star's development and fate. </label>
+            <div class="form-group">
+              <input class="form-control" type="text" name="determinate" id="determinate">
+            </div>
+          </div>
+
+          <!--QUESTION6-->
+          <div class="form-group">
+            <label class="form-control-label">Q6: What are the three primary types of intrinsically variable stars? Define each one.</label>
+            <div class="form-group">
+              <textarea class="form-control" name="variable" id="variable" rows="4"></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input class="btn btn-primary" type="Submit" value="Submit">
+            <input class="btn" type="reset" value="Clear">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
